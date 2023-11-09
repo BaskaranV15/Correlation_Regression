@@ -20,7 +20,7 @@ If y represents the dependent variable and x the independent variable, this rela
 ![image](https://user-images.githubusercontent.com/104613195/168225866-ac8f6610-bdc3-4ac2-a24e-2b24ba08e189.png)
 
 # Program :
-
+```
 import numpy as np
 import math
 import matplotlib.pyplot as plt
@@ -53,6 +53,7 @@ plt.plot(x,y1,'r')
 plt.xlabel('x-data')
 plt.ylabel('y-data')
 plt.legend(['Regression Line','Data points'])
+```
 # Output 
 
 ![Screenshot 2023-10-24 112245](https://github.com/BaskaranV15/Correlation_Regression/assets/118703522/1e3a96d7-1c9b-47c8-bad7-3aa9a1514152)
